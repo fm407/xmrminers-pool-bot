@@ -22,8 +22,8 @@ import (
     "crypto/tls"
 )
 
-const poolsJSON string = "https://raw.githubusercontent.com/turtlecoin/" +
-                         "turtlecoin-pools-json/master/v2/turtlecoin-pools.json"
+const poolsJSON string = "https://coins.xmrminers.club/" +
+                         "pools/list.json"
 
 /* You will need to change this to the channel ID of the pools channel. To
    get this, go here - https://stackoverflow.com/a/41515544/8737306 */
